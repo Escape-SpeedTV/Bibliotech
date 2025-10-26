@@ -10,7 +10,7 @@ It allows users to manage books, users, and loans efficiently through a console 
 - Simple console-based interface 
 
 🛠 🛠 Technologies
-- Java 17 (or your current version)  
+- Java 17
 - MySQL  
 - JDBC (MySQL Connector)  
 
