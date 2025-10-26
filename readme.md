@@ -1,27 +1,33 @@
 📚 Bibliotech
 
-Um sistema de gerenciamento de biblioteca desenvolvido em **Java** com integração ao **MySQL**.
+**Bibliotech** is a Java-based library management system with MySQL integration.  
+It allows users to manage books, users, and loans efficiently through a console interface.
 
-🚀 Funcionalidades
-- Cadastro de livros e usuários  
-- Empréstimos e devoluções  
-- Atualização e exclusão de registros  
-- Listagem de dados no console
+🚀 Features
+- Add, update, and delete books and users  
+- Borrow and return books  
+- List all books and users  
+- Simple console-based interface 
 
-🛠 Tecnologias Utilizadas
-- Java 17
-- MySQL
-- JDBC (conector MySQL)
+🛠 🛠 Technologies
+- Java 17 (or your current version)  
+- MySQL  
+- JDBC (MySQL Connector)  
 
-🗃 Banco de Dados
-O script SQL está em `database/biblioteca.sql`.
+🗃 Database
+The SQL script is located in the `database/biblioteca.sql`.
 
-Para importar o banco:
+import sql: 
 mysql -u root -p < database/biblioteca.sql
 
 
 
 
 
-📦 compilar.bat → compila todos os arquivos Java e gera os .class na pasta bin
-🚀 rodar.bat → executa o projeto automaticamente após a compilação
+📦 compile.bat → compiles all Java files and generates .class files in the bin folder
+🚀 rodar.bat → runs the project automatically after compilation
+
+
+- I haven’t created a front-end for this project yet, as I’m still learning how to do it.
+However, I’m eager to improve my skills, and once I’m able to work with a front-end in Java, I plan to integrate it and possibly update this entire project.
+Thank you for your understanding! 😄
